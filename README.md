@@ -19,9 +19,6 @@ Configuração de assinatura para chamados encerrados no servicenow com hiperlin
 
 ```
 Primeiramente o código fonte deverá ser descompactado dentro do servidor apache.
-```
-
-```
 O banco de dados deverá ser importado ao mysql.
 ```
 
@@ -31,43 +28,13 @@ Acessar mysql e configurar em "perfildousuario" admin = 1 e usuario = 2
 
 ```
 Acessar seulink/gerenciamento/register.php e criar uma conta
-```
-
-```
-Acessar mysql e configurar em usuários e mude o seu usuário para 1, após isso remova o arquivo register.php por questões de segurança.
+Acessar mysql e configurar em usuários e mude o seu usuário para 1, após isso remova o arquivo register.php
 ```
 
 ```
 Configurar o servicenow para que após o chamado encerrado, enviar hiperlink automatico "seulink/validando-pesquisa.php?PARAMETROS".
-```
-
-```
 Os parametros padrão serão : $chamado, $usuario, $titulo, $datadeencerramento.
 ```
-
-## Executando os testes
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -91,8 +58,7 @@ Este projeto não poderá ser utilizado publicamente, apenas com autorização e
 
 ## Agradecimentos
 
-* Agradecimentos a Glauco Oliveira pelo apoio no levantamento de requisitos e documentação.
-* Agradecimentos a Fernanda Oliveira pela oportunidade de desenvolvimento interno da aplicação e implementação no cliente MRS LOGISTICA.
+* Agradecimentos a Glauco Oliveira e Fernanda Ferreira pelo apoio no levantamento de requisitos e documentação.
 
 
 
