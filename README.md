@@ -1,4 +1,4 @@
-# KSurvey
+# KSurvey 1.0
 
 Sistema de pesquisa de satisfação do atendimento de service desk, com integração com aplicações ITSM e dashboard para controles de métricas de atendimento em relação a qualidade.
 
@@ -17,15 +17,19 @@ Configuração de assinatura para chamados encerrados no servicenow com hiperlin
 
 ### Instalando
 
+```
 Primeiramente o código fonte deverá ser descompactado dentro do servidor apache.
 O banco de dados deverá ser importado ao mysql.
 Acessar mysql e configurar em "perfildousuario" admin = 1 e usuario = 2
+```
+
+```
 Acessar seulink/gerenciamento/register.php e criar uma conta
 Acessar mysql e configurar em usuários e mude o seu usuário para 1, após isso remova o arquivo register.php por questões de segurança.
 Configurar o servicenow para que após o chamado encerrado, enviar hiperlink automatico "seulink/validando-pesquisa.php?PARAMETROS".
 
 Os parametros padrão serão : $chamado, $usuario, $titulo, $datadeencerramento.
-
+```
 
 ## Executando os testes
 
