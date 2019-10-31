@@ -1,4 +1,4 @@
-# KSurvey 1.0
+# KSurvey
 
 Sistema de pesquisa de satisfação do atendimento de service desk, com integração com aplicações ITSM e dashboard para controles de métricas de atendimento em relação a qualidade.
 
@@ -19,15 +19,29 @@ Configuração de assinatura para chamados encerrados no servicenow com hiperlin
 
 ```
 Primeiramente o código fonte deverá ser descompactado dentro do servidor apache.
+```
+
+```
 O banco de dados deverá ser importado ao mysql.
+```
+
+```
 Acessar mysql e configurar em "perfildousuario" admin = 1 e usuario = 2
 ```
 
 ```
 Acessar seulink/gerenciamento/register.php e criar uma conta
-Acessar mysql e configurar em usuários e mude o seu usuário para 1, após isso remova o arquivo register.php por questões de segurança.
-Configurar o servicenow para que após o chamado encerrado, enviar hiperlink automatico "seulink/validando-pesquisa.php?PARAMETROS".
+```
 
+```
+Acessar mysql e configurar em usuários e mude o seu usuário para 1, após isso remova o arquivo register.php por questões de segurança.
+```
+
+```
+Configurar o servicenow para que após o chamado encerrado, enviar hiperlink automatico "seulink/validando-pesquisa.php?PARAMETROS".
+```
+
+```
 Os parametros padrão serão : $chamado, $usuario, $titulo, $datadeencerramento.
 ```
 
@@ -57,13 +71,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [BootStrap](https://getbootstrap.com/docs/4.3/) - FrameWork FrontEnd
+* [PHP](https://php.net/) - PHP
+* [MYSQL](https://dev.mysql.com/doc/) - MySql
 
 ## Versionamento
 
