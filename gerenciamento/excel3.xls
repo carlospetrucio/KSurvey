@@ -1,0 +1,110 @@
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+               xmlns:x="urn:schemas-microsoft-com:office:excel"
+                xmlns="http://www.w3.org/TR/REC-html40">
+
+                <head>
+                <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+                <meta name=ProgId content=Excel.Sheet>
+                <!--[if gte mso 9]><xml>
+                 <o:DocumentProperties>
+                   <o:Author>Pesquisa TI - Powered by KSurvey (www.kcoder.com.br)</o:Author>
+                  <o:LastAuthor>Pesquisa TI - Powered by KSurvey (www.kcoder.com.br)</o:LastAuthor>
+                  <o:Version>1.0</o:Version>
+                 </o:DocumentProperties>
+                 <o:OfficeDocumentSettings>
+                  <o:DownloadComponents/>
+                 </o:OfficeDocumentSettings>
+                </xml><![endif]-->
+                <style>
+                <!--table
+                    {mso-displayed-decimal-separator:"\.";
+                    mso-displayed-thousand-separator:"\,";}
+                @page
+                    {margin:1.0in .75in 1.0in .75in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+
+                tr
+                    {mso-height-source:auto;font-size:100.0pt;}
+                col
+                    {mso-width-source:auto;}
+                br
+                    {mso-data-placement:same-cell;}
+                .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Normal;
+                    mso-style-id:0;}
+                td
+                    {mso-style-parent:style0;
+                    padding-top:1px;
+                    padding-right:1px;
+                    padding-left:1px;
+                    mso-ignore:padding;
+                    color:windowtext;
+                    font-size:12.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    border:none;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    mso-protection:locked visible;
+                    white-space:nowrap;
+                    mso-rotate:0;}
+                .xl24
+                    {mso-style-parent:style0;
+                    white-space:normal;}
+                -->
+                </style>
+                <!--[if gte mso 9]><xml>
+                 <x:ExcelWorkbook>
+                  <x:ExcelWorksheets>
+
+                   <x:ExcelWorksheet>
+                    <x:Name>Pesquisa TI</x:Name>
+                    <x:WorksheetOptions>
+                     <x:Selected/>
+                     <x:ProtectContents>False</x:ProtectContents>
+                     <x:ProtectObjects>False</x:ProtectObjects>
+                     <x:ProtectScenarios>False</x:ProtectScenarios>
+                    </x:WorksheetOptions>
+                   </x:ExcelWorksheet>
+
+                  </x:ExcelWorksheets>
+                  <x:WindowHeight>10005</x:WindowHeight>
+                  <x:WindowWidth>10005</x:WindowWidth>
+                  <x:WindowTopX>120</x:WindowTopX>
+                  <x:WindowTopY>135</x:WindowTopY>
+                  <x:ProtectStructure>False</x:ProtectStructure>
+                  <x:ProtectWindows>False</x:ProtectWindows>
+
+
+                 </x:ExcelWorkbook>
+                </xml><![endif]-->
+                </head>
+
+                <body link=blue vlink=purple>
+                <table x:str border=10px cellpadding=0 cellspacing=0 style='background-color: #000; border-collapse: collapse;table-layout:fixed;'>
+                <center><h1>Pesquisa de Satisfação TI - Relatório</h1></center><tr><td class=xl24 width=64 >IDPesquisa</td><td class=xl24 width=64 >Colaborador</td><td class=xl24 width=64 >Título do chamado</td><td class=xl24 width=64 >N° do Chamado</td><td class=xl24 width=64 >O problema foi resolvido</td><td class=xl24 width=64 >P2</td><td class=xl24 width=64 >P3</td><td class=xl24 width=64 >P4</td><td class=xl24 width=64 >P5</td><td class=xl24 width=64 >P6</td><td class=xl24 width=64 >Observacoes</td><td class=xl24 width=64 >datapesquisa</td></tr><tr><td class=xl24 width=64 >18</td><td class=xl24 width=64 >cpetruciofr2</td><td class=xl24 width=64 >MRS - PT - QUEDA DE LIGAÇÃO</td><td class=xl24 width=64 >INC0000001</td><td class=xl24 width=64 >Sim</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >TESTE</td><td class=xl24 width=64 >2019-11-18</td></tr><tr><td class=xl24 width=64 >20</td><td class=xl24 width=64 >cpetruciofr2</td><td class=xl24 width=64 >MRS - PT - QUEDA DE LIGAÇÃO</td><td class=xl24 width=64 >INC12425740</td><td class=xl24 width=64 >Sim</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >teste</td><td class=xl24 width=64 >2019-11-18</td></tr><tr><td class=xl24 width=64 >21</td><td class=xl24 width=64 >cpetruciofr2</td><td class=xl24 width=64 >MRS - PT - QUEDA DE LIGAÇÃO</td><td class=xl24 width=64 >INC124257550</td><td class=xl24 width=64 >Sim</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >dasdsdsadas</td><td class=xl24 width=64 >2019-11-18</td></tr><tr><td class=xl24 width=64 >22</td><td class=xl24 width=64 >cpetruciofr2</td><td class=xl24 width=64 >MRS - PT - QUEDA DE LIGAÇÃO</td><td class=xl24 width=64 >INC124SDSD5740</td><td class=xl24 width=64 >Sim</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >4</td><td class=xl24 width=64 >teste</td><td class=xl24 width=64 >2019-11-18</td></tr></table></body></html>
