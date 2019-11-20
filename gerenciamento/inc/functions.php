@@ -1,5 +1,30 @@
 <?php
-ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel conexao
+
+error_reporting(0);
+ini_set(“display_errors”, 0 );
+
+
+  $licensekey = 'adc285704d36eea9d4a23748ac0ff936';
+	function curl_info($url){
+    $timeout = 5000;
+		$ch = curl_init();
+		curl_setopt( $ch, CURLOPT_URL, $url );
+		curl_setopt( $ch, CURLOPT_HEADER, 1);
+		curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+		curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, $timeout );
+		curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1 );
+
+		$content = curl_exec( $ch );
+		$info = curl_getinfo( $ch );
+
+		return $info;
+	}
+
+	$site = 'http://www.validation.kcoder.com.br/'.$licensekey.'.php?id=validation-mrs-license-lkey';
+	$info = curl_info( $site );
+	if( $info['http_code']==200 )
+  {
+  ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel conexao
 
 	date_default_timezone_set('America/Sao_Paulo');
 	session_start();
@@ -241,6 +266,13 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 
 
 	//INICIANDO CONTADORES
+	} else {
+		echo '<body class="bg-warning text-dark">';
+		echo '<center>';
+		echo '<h4>USO N&Atilde;O AUTORIZADO - ENTRAR EM CONTATO COM DESENVOLVEDORES.<h4>';
+		echo '</center>';
+	}
 
 
-?>
+
+  ?>
