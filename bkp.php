@@ -1,0 +1,1 @@
+<?php echo getenv("username"); ?> <!-- GRAVA NOME DE USUARIO LOGADO -->
