@@ -4,7 +4,7 @@
 
 $chamado = $_GET["id"];
 $titulo = $_GET["titulo"];
-$usuariopesquisa = getenv("username");
+$usuariopesquisa = $_GET["userid"];
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -39,7 +39,10 @@ $usuariopesquisa = getenv("username");
 }
 </style>
   <body class="bg-warning text-dark">
-
+    <?php echo "<h1><center>Capturar usuário : ";
+          echo $usuariopesquisa; 
+          echo "</center></h1>";
+          ?>
 
 <!-- inicia as respostas -->
 <?php echo display_error(); ?>
