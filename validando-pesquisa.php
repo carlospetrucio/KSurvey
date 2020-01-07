@@ -39,9 +39,7 @@ $usuariopesquisa = getenv("username");
 }
 </style>
   <body class="bg-warning text-dark">
-    <?php
 
-    echo date("F"); ?>
 
 <!-- inicia as respostas -->
 <?php echo display_error(); ?>

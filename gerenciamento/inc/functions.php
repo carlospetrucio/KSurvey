@@ -13,33 +13,34 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 	$email    = "";
 	$errors   = array();
 
-	//ação para registro de usuário.
+	//botão de ação para function de pesquisa.
 	if (isset($_POST['filtro_pesquisa_btn'])) {
 		filtrapesquisa();
 	}
 
-	//ação para registro de usuário.
+	//botão de ação para registro de usuário.
 	if (isset($_POST['register_btn'])) {
 		register();
 	}
 
-	// ação para login.
+	//botão de ação para login.
 	if (isset($_POST['login_btn'])) {
 		login();
 	}
 
-	//ação para enviar a pesquisa
+	//botão de ação para enviar a pesquisa
 	if (isset($_POST['pesquisa_btn'])) {
 		inserirpesquisa();
 	}
 
-
+	//botão de ação para logout
 	if (isset($_GET['logout'])) {
 		session_destroy();
 		unset($_SESSION['usuarios']);
 		header("location: gerenciamento/login.php");
 	}
 
+	//function de pesquisa de pesquisas
    function filtrapesquisa(){
 		 global $db, $errors;
 		 $datainicio = e($_POST['datainicio']);
@@ -47,7 +48,7 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 		 $query = "SELECT * FROM pesquisa Where datapesquisa BETWEEN '$datainicio' AND '$datafim'";
 	 }
 
-	 //verifica se o chamado ja foi respondido
+	//verifica se o chamado ja foi respondido
 	function VerificaChamado(){
 		global $db, $errors;
 		$chamado = e($_GET['id']);
@@ -56,7 +57,7 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 
 		}
 
-	//INSERE MÁTRICULA NAS MINHAS PESQUISAS
+	//recebe a matricula por meio de form para inserir no banco juntamente a pesquisa
 	function inserirmatricula(){
 		global $db, $errors;
 
@@ -97,7 +98,7 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 
 		}
 
-	// REGISTER USER
+	//function que registra usuário no banco de dados
 	function register(){
 		global $db, $errors;
 
@@ -164,7 +165,7 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 	function login(){
 		global $db, $username, $errors;
 
-		// grap form values
+		// pega dados do form
 		$email = e($_POST['email']);
 		$senha = e($_POST['senha']);
 
@@ -238,9 +239,4 @@ ini_set('default_charset', 'UTF-8'); //esta linha antes de criar a variavel cone
 			echo '</div>';
 		}
 	}
-
-
-	//INICIANDO CONTADORES
-
-
 ?>
