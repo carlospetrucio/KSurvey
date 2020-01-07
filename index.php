@@ -1,15 +1,10 @@
 <?php include('gerenciamento/inc/functions.php') ;
-
-
-$validausuario = getenv("username");
-
+$nomedapagina = "Home";
 ?>
 
 <!doctype html>
 <html lang="pt-br">
-
   <?php include_once ('inc-html/head.php'); ?>
-
   <style>
   .home-center img{
     margin-top: 15%;

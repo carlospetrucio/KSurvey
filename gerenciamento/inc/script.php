@@ -1,3 +1,5 @@
 
-<center><br><br><h6>Copyright (c) 2019 <a class="text-dark" href="http://www.kcoder.com.br">Kcoder</a></br>
-All Rights Reserved</h6></center>
+<center><br><br><h6>Desenvolvido por <a class="text-dark" href="https://github.com/carlospetrucio">Carlos Petrucio</a><br>Todos os direitos reservados.</br>
+</h6>
+<br>
+<a class="btn btn-dark" href="https://github.com/carlospetrucio/KSurvey">GitHub</a></center>
