@@ -1,6 +1,6 @@
 # KSurvey
 
-Sistema de pesquisa de satisfação do atendimento de service desk, com integração com aplicações ITSM e dashboard para controles de métricas de atendimento em relação a qualidade.
+Sistema de pesquisa de satisfação do atendimento de service desk, com integração com aplicações ITSM e dashboard para controles de métricas de atendimento.
 
 ## Iniciando
 
@@ -48,7 +48,7 @@ Os parametros padrão serão : $chamado, $usuario, $titulo, $datadeencerramento.
 
 ## Authors
 
-* **Carlos Petrucio** - *Fundador e Desenvolvedor FullStack* - [CarlosPetrucio](https://github.com/CarlosPetrucio)
+* **Carlos Petrucio**  - [CarlosPetrucio](https://github.com/CarlosPetrucio)
 
 Veja também a lista de [contributors](https://github.com/carlospetrucio/KSurvey/contributors) que participaram deste projeto.
 
