@@ -1,0 +1,31 @@
+CREATE DATABASE IF NOT EXISTS ksurvey;
+USE ksurvey;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    idusuarios INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senhadousuario VARCHAR(255) NOT NULL,
+    perfildousuario TINYINT(1) NOT NULL DEFAULT 2
+);
+
+CREATE TABLE IF NOT EXISTS pesquisa (
+    idpesquisa INT AUTO_INCREMENT PRIMARY KEY,
+    usuariopesquisa VARCHAR(255) NOT NULL,
+    titulo VARCHAR(255) NOT NULL,
+    chamado VARCHAR(255) NOT NULL,
+    P1 VARCHAR(255),
+    P2 VARCHAR(255),
+    P3 VARCHAR(255),
+    P4 VARCHAR(255),
+    P5 VARCHAR(255),
+    P6 VARCHAR(255),
+    P7 VARCHAR(255),
+    observacoes TEXT,
+    datapesquisa DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS resposta (
+    idresposta INT AUTO_INCREMENT PRIMARY KEY,
+    resposta_texto TEXT NOT NULL
+);
